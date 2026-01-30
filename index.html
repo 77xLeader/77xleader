@@ -3,80 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>77xleader Technology | Premium Logitech Scripts</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>77XLEADER | No Recoil, No Limits</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        :root { --main-green: #00ff00; --bg-dark: #0a0a0a; --card-bg: #151515; }
-        body { background-color: var(--bg-dark); color: white; font-family: 'Poppins', sans-serif; margin: 0; padding: 0; }
-        .navbar { padding: 20px; text-align: center; background: rgba(0,0,0,0.5); border-bottom: 1px solid #222; }
-        .logo { font-size: 24px; font-weight: bold; color: var(--main-green); letter-spacing: 2px; }
-        
-        .hero { padding: 60px 20px; text-align: center; background: radial-gradient(circle, #1a331a 0%, #0a0a0a 100%); }
-        .hero h1 { font-size: 48px; margin-bottom: 10px; }
-        .hero p { color: #888; font-size: 18px; }
-
-        .container { max-width: 1100px; margin: auto; padding: 40px 20px; display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; }
-        
-        .card { background: var(--card-bg); border: 1px solid #222; border-radius: 15px; width: 300px; padding: 25px; transition: 0.3s; position: relative; overflow: hidden; }
-        .card:hover { border-color: var(--main-green); transform: translateY(-10px); }
-        .card h3 { margin-top: 0; font-size: 22px; }
-        .card .price { font-size: 28px; color: var(--main-green); font-weight: bold; margin: 15px 0; }
-        .card ul { list-style: none; padding: 0; color: #aaa; font-size: 14px; text-align: left; }
-        .card ul li { margin-bottom: 8px; }
-        .card ul li::before { content: "✓ "; color: var(--main-green); }
-
-        .buy-btn { background: var(--main-green); color: black; text-decoration: none; padding: 12px; display: block; border-radius: 8px; font-weight: bold; text-align: center; margin-top: 20px; transition: 0.3s; }
-        .buy-btn:hover { background: #00cc00; box-shadow: 0 0 15px rgba(0,255,0,0.4); }
-
-        .footer { text-align: center; padding: 40px; color: #444; font-size: 13px; border-top: 1px solid #222; }
-        .discord-link { color: #5865F2; text-decoration: none; font-weight: bold; }
+        body { background-color: #0f172a; color: #f8fafc; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .premium-border { border: 2px solid #fbbf24; box-shadow: 0 0 20px rgba(251, 191, 36, 0.3); }
+        .std-border { border: 2px solid #3b82f6; box-shadow: 0 0 20px rgba(59, 130, 246, 0.3); }
+        .gradient-text { background: linear-gradient(90deg, #fbbf24, #f59e0b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     </style>
 </head>
-<body>
+<body class="antialiased">
 
-    <div class="navbar">
-        <div class="logo">77XLEADER TECHNOLOGY</div>
-    </div>
-
-    <div class="hero">
-        <h1>Üstün Hassasiyet, Maksimum Güç</h1>
-        <p>Logitech G-Hub için optimize edilmiş, ban riskini minimize eden LUA scriptleri.</p>
-    </div>
-
-    <div class="container">
-        <div class="card">
-            <h3>R6 Siege Full Pack</h3>
-            <div class="price">150 TL</div>
-            <ul>
-                <li>Tüm Operatörler Uyumlu</li>
-                <li>Otomatik Silah Tanıma</li>
-                <li>Humanized Mouse Movement</li>
-                <li>7/24 Discord Destek</li>
-            </ul>
-            <a href="YARIN_LINK_EKLE" class="buy-btn">Hemen Satın Al</a>
+    <nav class="p-6 flex justify-between items-center max-w-7xl mx-auto">
+        <div class="text-2xl font-bold tracking-tighter gradient-text">77XLEADER</div>
+        <div class="space-x-8 hidden md:flex">
+            <a href="#ozellikler" class="hover:text-amber-400 transition">Özellikler</a>
+            <a href="#fiyatlar" class="hover:text-amber-400 transition">Fiyatlandırma</a>
+            <a href="#sss" class="hover:text-amber-400 transition">SSS</a>
         </div>
+        <a href="DISCORD_LINKI_BURAYA" class="bg-indigo-600 hover:bg-indigo-700 px-6 py-2 rounded-full font-semibold transition">
+            <i class="fab fa-discord mr-2"></i>Discord'a Katıl
+        </a>
+    </nav>
 
-        <div class="card">
-            <h3>Valorant Lite</h3>
-            <div class="price">100 TL</div>
-            <ul>
-                <li>Safe Recoil Control</li>
-                <li>G-Hub Özel Yazılım</li>
-                <li>FPS Kaybı Yaşatmaz</li>
-                <li>Anında Otomatik Teslimat</li>
-            </ul>
-            <a href="YARIN_LINK_EKLE" class="buy-btn">Hemen Satın Al</a>
+    <header class="py-20 text-center px-4">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
+            Geri Tepmeyi <span class="gradient-text">Tarihe Gömün</span>
+        </h1>
+        <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">
+            Rainbow Six Siege için geliştirilmiş en güvenli, en stabil ve en hızlı Logitech G-Hub scriptleri. 
+            Ban riski olmadan rakiplerinizin bir adım önüne geçin.
+        </p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <a href="#fiyatlar" class="bg-amber-500 hover:bg-amber-600 text-slate-900 px-10 py-4 rounded-xl font-bold text-lg transition shadow-lg shadow-amber-500/20">
+                Hemen Satın Al
+            </a>
+            <a href="#ozellikler" class="glass px-10 py-4 rounded-xl font-bold text-lg hover:bg-slate-800 transition">
+                Özellikleri İncele
+            </a>
         </div>
-        
-<div class="footer">
-    <p>Satın alım sonrası <a href="https://discord.gg/7dPF8W4F55" class="discord-link" target="_blank">Discord Sunucumuza</a> katılarak botumuza keyinizi onaylatın.</p>
-    <p>© 2026 77xleader. Tüm Hakları Saklıdır.</p>
-</div>
-        
-        <div class="card">
-            <h3>CS2 / Apex Pack</h3>
-            <div class="price">125 TL</div>
-            <ul>
-                <li>Özel Pattern Randomizer</li>
-                <li>Aimbot Değildir, Güvenlidir</li>
-                <li>Ömür Boy
+    </header>
+
+    <section id="ozellikler" class="py-20 max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass p-8 rounded-3xl">
+                <i class="fas fa-shield-halved text-4xl text-blue-500 mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Üst Düzey Güvenlik</h3>
+                <p class="text-slate-400">Yazılım değil, saf LUA kodu. BattlEye tarafından tespit edilmesi imkansız donanımsal çözüm.</p>
+            </div>
+            <div class="glass p-8 rounded-3xl">
+                <i class="fas fa-bolt text-4xl text-amber-500 mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Sıfır Gecikme</h3>
+                <p class="text-slate-400">G-Hub altyapısı sayesinde giriş gecikmesi olmadan milisaniyelik tepki süresi.</p>
+            </div>
+            <div class="glass p-8 rounded-3xl">
+                <i class="fas fa-sync text-4xl text-green-500 mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Anlık Güncelleme</h3>
+                <p class="text-slate-400">Oyun güncellemelerine göre optimize edilen ve ücretsiz sunulan yeni profil destekleri.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="fiyatlar" class="py-20 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">Size Uygun <span class="text-amber-500">Paketi Seçin</span></h2>
+            <div class="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                
+                <div class="glass p-10 rounded-3xl std-border relative">
+                    <h3 class="text-2xl font-bold mb-2">Standart Sürüm</h3>
+                    <p class="text-slate-400 mb-6">Temel ihtiyaçlar için ideal.</p>
+                    <div class="text-4xl font-extrabold mb-8">99₺ <span class="text-sm text-slate-500 font-normal">/ Aylık</span></div>
+                    <ul class="space-y-4 mb-10 text-slate-300">
+                        <li><i class="fas fa-check text-blue-500 mr-2"></i> Tüm Silahlar İçin Recoil Kontrol</li>
+                        <li><i class="fas fa-check text-blue-500 mr-2"></i> Scroll Lock Mod Geçişi</li>
+                        <li><i class="fas fa-check text-blue-500 mr-2"></i> G-Hub Uyumluluğu</li>
+                        <li class="opacity-40"><i class="fas fa-times mr-2"></i> 19 Özel Silah Profili</li>
+                    </ul>
+                    <a href="DISCORD_LINK" class="block text-center py-4 rounded-xl border border-blue-500 text-blue-500 font-bold hover:bg-blue-500 hover:text-white transition">Satın Al</a>
+                </div>
+
+                <div class="glass p-10 rounded-3xl premium-border relative scale-105">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-amber-500 text-slate-900 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">En Popüler</div>
+                    <h3 class="text-2xl font-bold mb-2">Premium Sürüm</h3>
+                    <p class="text-slate-400 mb-6">Tam hakimiyet isteyenler için.</p>
+                    <div class="text-4xl font-extrabold mb-8">199₺ <span class="text-sm text-slate-500 font-normal">/ Aylık</span></div>
+                    <ul class="space-y-4 mb-10 text-slate-300">
+                        <li><i class="fas fa-check text-amber-500 mr-2"></i> 19 Özel Operatör Profili</li>
+                        <li><i class="fas fa-check text-amber-500 mr-2"></i> Rapid Fire (DMR & Tabanca)</li>
+                        <li><i class="fas fa-check text-amber-500 mr-2"></i> RGB Mouse Geri Bildirimi</li>
+                        <li><i class="fas fa-check text-amber-500 mr-2"></i> VIP Kurulum Desteği</li>
+                    </ul>
+                    <a href="DISCORD_LINK" class="block text-center py-4 rounded-xl bg-amber-500 text-slate-900 font-bold hover:bg-amber-600 transition shadow-lg shadow-amber-500/20">Satın Al</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 border-t border-slate-800 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 77XLEADER. Tüm hakları saklıdır. Bu ürün bir hile değil, donanımsal yardımcıdır.</p>
+    </footer>
+
+</body>
+</html>
